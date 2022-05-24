@@ -6,7 +6,7 @@ class ButtonClass extends React.Component {
     return (
       <Button
         variant="primary"
-        size="lg"
+        size="sm"
         type="button"
         handleClick={() => console.log("Click happened")}
         text="Click Me"
