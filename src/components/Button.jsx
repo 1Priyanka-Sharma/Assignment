@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 function Button(props) {
   return (
     <button
-      className={`btn my-2 mx-2 btn-${props.variant} btn-${props.size}`}
+      className={`btn btn-${props.variant} btn-${props.size}`}
       type={props.type}
       onClick={() => setTimeout(props.handleClick, 5000)}
     >
